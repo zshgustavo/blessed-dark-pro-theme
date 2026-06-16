@@ -1,0 +1,21 @@
+{
+  "name": "blessed-dark-pro",
+  "displayName": "blessed-dark-pro",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Blessed Dark Pro",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blessed-dark-pro-color-theme.json"
+      }
+    ]
+  }
+}
