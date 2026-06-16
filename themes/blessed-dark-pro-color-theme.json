@@ -1,0 +1,45 @@
+{
+  "name": "Blessed Dark Pro",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#CCCCCC",
+    "sideBar.background": "#111111",
+    "sideBar.border": "#222222",
+    "activityBar.background": "#111111",
+    "activityBar.foreground": "#555555",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#CCCCCC",
+    "focusBorder": "#222222"
+  },
+  "tokenColors": [
+    {
+      "name": "Sintaxe Base (Palavras-chave)",
+      "scope": [
+        "keyword",
+        "control",
+        "statement",
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.sql"
+      ],
+      "settings": {
+        "foreground": "#555555",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Fun\u00e7\u00f5es e M\u00e9todos",
+      "scope": ["entity.name.function", "meta.function-call"],
+      "settings": {
+        "foreground": "#777777"
+      }
+    },
+    {
+      "name": "Strings e Marca\u00e7\u00f5es",
+      "scope": ["string", "punctuation.definition.string", "markup.heading"],
+      "settings": {
+        "foreground": "#FFFF33"
+      }
+    }
+  ]
+}
